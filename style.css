@@ -406,3 +406,19 @@ textarea{resize:vertical}
     font-size:16px;
   }
 }
+
+@media (max-width: 768px) {
+
+  .photo-placeholder.medium {
+    height: auto;
+    min-height: auto;
+    padding-top: 0;
+  }
+
+  .photo-placeholder.medium img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+}
