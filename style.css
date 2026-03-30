@@ -11,7 +11,7 @@
   --radius:24px;
   --shadow:0 20px 60px rgba(0,0,0,.30);
 }
-.logo {
+.logo img{
   width: 45px;
   height: 45px;
   border-radius: 50%;
