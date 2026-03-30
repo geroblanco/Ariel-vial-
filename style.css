@@ -18,6 +18,34 @@
   filter: brightness(0) invert(1);
   opacity: 0.8;
 }
+.clientes-logos {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.logo-item {
+  background: rgba(255,255,255,0.05);
+  border-radius: 30px;
+  padding: 18px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+}
+
+.logo-item img {
+  max-height: 28px;
+  filter: brightness(0) invert(1); /* los deja blancos */
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.logo-item img:hover {
+  opacity: 1;
+}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{
