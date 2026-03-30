@@ -11,6 +11,12 @@
   --radius:24px;
   --shadow:0 20px 60px rgba(0,0,0,.30);
 }
+.logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
 .mini-logo img,
 .trust-logo img {
   max-height: 40px;
