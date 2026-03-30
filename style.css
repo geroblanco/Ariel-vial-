@@ -23,6 +23,14 @@
   transition: 0.4s;
 }
 
+.foto-grande img {
+  object-fit: cover;
+  height: 100%;
+}
+.foto-grande {
+  height: 300px; /* o el tamaño que quieras */
+  overflow: hidden;
+}
 .foto img:hover {
   transform: scale(1.03);
 }
